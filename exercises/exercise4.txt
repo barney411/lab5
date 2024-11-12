@@ -1,0 +1,23 @@
+ece-1400@ece-linux-23:~$ mkdir lab5
+ece-1400@ece-linux-23:~$ cd lab5
+ece-1400@ece-linux-23:~/lab5$ pwd
+/home/ece-1400/lab5
+ece-1400@ece-linux-23:~/lab5$ echo Sarah Barney>exercise1.txt
+ece-1400@ece-linux-23:~/lab5$ cat exercise1.txt exercise1.txt exercise1.txt > exercise2.txt
+ece-1400@ece-linux-23:~/lab5$ cp exercise2.txt exercise3.txt
+ece-1400@ece-linux-23:~/lab5$ vi exercise3.txt
+ece-1400@ece-linux-23:~/lab5$ diff exercise2.txt exercise3.txt                  
+1a2                                                                             
+> Bender Is Great                                                               
+3c4                                                                             
+< Sarah Barney                                                                  
+---                                                                             
+>                                                                               
+ece-1400@ece-linux-23:~/lab5$ mkdir exercises                                   
+ece-1400@ece-linux-23:~/lab5$ cp -r  *.txt exercises                            
+ece-1400@ece-linux-23:~/lab5$ cd exercises                                      
+ece-1400@ece-linux-23:~/lab5/exercises$ ls                                      
+exercise1.txt  exercise2.txt  exercise3.txt                                     
+ece-1400@ece-linux-23:~/lab5/exercises$ ^C                                      
+ece-1400@ece-linux-23:~/lab5/exercises$ ^C                                      
+ece-1400@ece-linux-23:~/lab5/exercises$ ^C  

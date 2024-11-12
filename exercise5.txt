@@ -1,0 +1,4 @@
+ece-1400@ece-linux-23:~/lab5$ gcc -o exercise5 exercise5.c
+ece-1400@ece-linux-23:~/lab5$ ./exercise5
+Hello, World! Bender is Great!
+ece-1400@ece-linux-23:~/lab5$ 
